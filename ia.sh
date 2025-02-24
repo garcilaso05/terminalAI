@@ -68,7 +68,5 @@ while true; do
   # Control de errores
   if [[ -z "$answer" ]]; then
     echo -e "\e[31mError al procesar la consulta.\e[0m"
-  else
-    echo -e "\e[37m$answer\e[0m"
   fi
 done
